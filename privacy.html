@@ -13,44 +13,48 @@
   .card{max-width:720px;width:100%;background:linear-gradient(180deg,#1b2350,var(--card));
     border:1px solid var(--line);border-radius:22px;padding:34px 30px;box-shadow:0 30px 80px rgba(0,0,0,.4)}
   h1{font-size:26px;margin:0 0 4px} .date{color:var(--muted);margin:0 0 22px}
-  h2{font-size:18px;margin:24px 0 6px} a{color:var(--accent)}
+  h2{font-size:18px;margin:24px 0 6px} ul{padding-left:20px;margin:6px 0} a{color:var(--accent)}
   .foot{color:var(--muted);font-size:13px;margin-top:26px}
 </style>
 </head>
 <body>
   <div class="card">
     <h1>Politique de confidentialité — Bloop Drop</h1>
-    <p class="date">Dernière mise à jour : 16 septembre 2026</p>
+    <p class="date">Dernière mise à jour : 16 octobre 2026</p>
 
-    <p>Bloop Drop est un jeu de puzzle édité par <strong>Groupe BSE</strong>. Nous limitons la collecte de données au strict nécessaire au fonctionnement du classement en ligne. Aucune publicité, aucun traceur publicitaire, aucune revente de données.</p>
+    <p><strong>Bloop Drop</strong> est un jeu de puzzle gratuit édité par <strong>Groupe BSE</strong>, disponible sur iOS et Android. Le jeu est financé par la publicité. Cette page explique quelles données sont traitées, par qui et pourquoi.</p>
 
-    <h2>Données que nous traitons</h2>
-    <p>Uniquement si tu choisis de publier un score&nbsp;:</p>
+    <h2>1. Classement en ligne (Supabase)</h2>
+    <p>Uniquement si tu choisis de publier un score :</p>
     <ul>
       <li><strong>Pseudo</strong> : le nom que tu saisis pour apparaître au classement.</li>
-      <li><strong>Score et niveau</strong> : tes meilleures performances.</li>
-      <li><strong>Identifiant de joueur anonyme</strong> : un identifiant aléatoire généré sur ton appareil, servant à rattacher ton meilleur score. Il ne permet pas de t'identifier personnellement.</li>
+      <li><strong>Score, niveau et difficulté</strong> : tes meilleures performances.</li>
+      <li><strong>Identifiant de joueur anonyme</strong> : un identifiant aléatoire généré sur ton appareil, servant à rattacher ton meilleur score.</li>
     </ul>
-    <p>Nous ne collectons ni nom réel, ni e-mail, ni localisation, ni identifiant publicitaire, ni contacts.</p>
+    <p>Ces données sont stockées chez <strong>Supabase</strong>, sur des serveurs situés dans l'Union européenne (région eu-west-1). Les échanges sont chiffrés (HTTPS).</p>
 
-    <h2>Finalité</h2>
-    <p>Afficher un classement des scores entre joueurs et te permettre de comparer tes résultats.</p>
+    <h2>2. Publicité (Google AdMob)</h2>
+    <p>Le jeu affiche des publicités fournies par <strong>Google AdMob</strong> (interstitielles en fin de partie et vidéos récompensées facultatives). Pour cela, Google peut collecter l'<strong>identifiant publicitaire</strong> de ton appareil, des informations techniques (modèle, système, langue, adresse IP approximative) et des données d'interaction avec les annonces, afin de diffuser, mesurer et limiter la fraude publicitaire.</p>
+    <p>Sur iPhone, l'autorisation de suivi (App Tracking Transparency) t'est demandée au lancement ; si tu la refuses, les annonces ne sont pas personnalisées. Tu peux à tout moment réinitialiser ou limiter ton identifiant publicitaire dans les réglages de ton téléphone.</p>
+    <p>En savoir plus : <a href="https://policies.google.com/technologies/ads?hl=fr">Comment Google utilise les données à des fins publicitaires</a> · <a href="https://policies.google.com/privacy?hl=fr">Règles de confidentialité de Google</a>.</p>
 
-    <h2>Hébergement</h2>
-    <p>Les scores sont stockés chez notre prestataire <strong>Supabase</strong>, sur des serveurs situés dans l'Union européenne (région eu-west-1). Les échanges sont chiffrés (HTTPS/WSS).</p>
+    <h2>3. Statistiques d'usage (PostHog)</h2>
+    <p>Pour améliorer le jeu, nous mesurons des événements d'utilisation anonymes (début et fin de partie, score, niveau atteint, durée) avec <strong>PostHog</strong>, hébergé dans l'Union européenne. Ces statistiques sont rattachées à un identifiant aléatoire et ne contiennent ni nom réel, ni e-mail, ni contacts.</p>
+
+    <h2>Ce que nous ne collectons pas</h2>
+    <p>Aucun nom réel, aucune adresse e-mail, aucun numéro de téléphone, aucune localisation précise, aucun contact, aucune photo. Nous ne vendons aucune donnée.</p>
 
     <h2>Durée de conservation</h2>
-    <p>Les scores sont conservés tant que le classement existe. Tu peux demander la suppression de ton entrée à tout moment.</p>
+    <p>Les scores sont conservés tant que le classement existe. Les statistiques d'usage sont conservées au maximum 12 mois. Les données publicitaires sont conservées par Google selon ses propres règles.</p>
 
     <h2>Tes droits (RGPD)</h2>
-    <p>Tu disposes d'un droit d'accès, de rectification et de suppression de ton entrée de classement. Pour l'exercer, écris-nous à <a href="mailto:jonathanbeaussire@groupe-bse.fr">jonathanbeaussire@groupe-bse.fr</a>.</p>
+    <p>Tu disposes d'un droit d'accès, de rectification, d'effacement et d'opposition. Pour supprimer ton entrée de classement ou tes données, écris-nous à <a href="mailto:jonathanbeaussire@groupe-bse.fr">jonathanbeaussire@groupe-bse.fr</a> en indiquant ton pseudo. Tu peux aussi introduire une réclamation auprès de la CNIL (<a href="https://www.cnil.fr">cnil.fr</a>).</p>
 
     <h2>Enfants</h2>
-    <p>Le jeu ne demande aucune donnée personnelle identifiante. Nous recommandons de ne pas utiliser son vrai nom comme pseudo.</p>
+    <p>Le jeu ne s'adresse pas spécifiquement aux enfants de moins de 13 ans. Nous recommandons de ne pas utiliser son vrai nom comme pseudo.</p>
 
     <h2>Contact</h2>
-    <p>Groupe BSE — 35 La Booz, 61110 Bretoncelles, France<br>
-    E-mail : <a href="mailto:jonathanbeaussire@groupe-bse.fr">jonathanbeaussire@groupe-bse.fr</a></p>
+    <p>Groupe BSE — 35 La Booz, 61110 Bretoncelles, France<br>E-mail : <a href="mailto:jonathanbeaussire@groupe-bse.fr">jonathanbeaussire@groupe-bse.fr</a></p>
 
     <p class="foot">© 2026 Groupe BSE. Tous droits réservés. — <a href="index.html">Assistance</a></p>
   </div>
